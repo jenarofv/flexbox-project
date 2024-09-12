@@ -15,12 +15,14 @@ header > h2 {
 #catalog {
   display: flex;
   justify-content: space-evenly;
-  height: 300px;
+  flex-flow: row wrap;
 }
 
 #catalog  div {
-  flex: 1 1 100px;
+  flex: 1 0 100px;
   text-align: center;
+  height: 300px;
+  min-width: 200px;
 }
 
 #catalog div p {
@@ -61,4 +63,12 @@ header > h2 {
   background-image: url("./bike-rack.webp");
   background-position-x: center;
   background-size: cover;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
 }
