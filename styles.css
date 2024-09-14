@@ -5,7 +5,7 @@ header > h1 {
   text-align: center;
 }
 
-header > h2 {
+h2 {
   /* font-family: 'Rock Salt', cursive; */
   font-family: 'Permanent Marker', cursive;
   font-size: 2.5rem;
@@ -22,7 +22,7 @@ header > h2 {
   flex: 1 0 100px;
   text-align: center;
   height: 300px;
-  min-width: 200px;
+  min-width: 300px;
   display: flex;
   align-items: center;
 }
@@ -65,11 +65,15 @@ header > h2 {
   background-size: cover;
 }
 
+#us {
+  padding-top: 20px;
+}
+
 footer {
-  position: fixed;
+  /* position: fixed;
   bottom: 0;
   z-index: 1;
-  background-color: white;
+  background-color: white; */
   width: 90%;
   padding: 10px 5% 10px 5%;
 }
