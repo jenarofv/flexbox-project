@@ -38,29 +38,29 @@ h2 {
 }
 
 #catalog #road {
-  background-image: url("./road_nicer.avif");
+  background-image: url("./munbaik-cycling-clothing-road.jpg");
   background-size: cover;
 }
 
 #catalog #track {
-  background-image: url("./track.avif");
+  background-image: url("./anton-savinov-track.jpg");
   background-size: cover;
 }
 
 #catalog #mtb {
-  background-image: url("./mtb.avif");
-  background-position-x: center;
+  background-image: url("./andhika-soreng-mtb.jpg");
+  background-position-x: right;
   background-size: cover;
 }
 
 #catalog #group {
-  background-image: url("./mtb_group.avif");
+  background-image: url("./quino-al-group-ride.jpg");
   background-position-x: center;
   background-size: cover;
 }
 
 #catalog #transport {
-  background-image: url("./bike-rack.webp");
+  background-image: url("./viktor-bystrov-car-bike.jpg");
   background-position-x: center;
   background-size: cover;
 }
