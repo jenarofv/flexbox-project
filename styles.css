@@ -75,6 +75,22 @@ h2 {
   flex-flow: row wrap;
 }
 
+.member {
+  display: flex;
+  flex: 0 1 300px;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ .imgcontainer {
+  width: 300px;
+}
+
+.imgcontainer img{
+  width: 100%;
+}
+
 footer {
   /* position: fixed;
   bottom: 0;
