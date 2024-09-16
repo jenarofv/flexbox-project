@@ -5,6 +5,18 @@ header > h1 {
   text-align: center;
 }
 
+header > * {
+  background-color: #ffc200;
+}
+
+main {
+  background: linear-gradient(#ffc200,#ffc200, white);
+}
+
+main > section > p{
+  margin: 0;
+}
+
 h2 {
   /* font-family: 'Rock Salt', cursive; */
   font-family: 'Permanent Marker', cursive;
