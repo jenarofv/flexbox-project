@@ -22,6 +22,39 @@ header > h3 {
   letter-spacing: 0.25rem;
 }
 
+nav {
+  background-color: #ffc200;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  box-sizing: content-box;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  font-family: 'permanent marker', cursive;
+}
+
+nav ul li a {
+  font-family: inherit;
+}
+
+nav ul li a:visited{
+  color: black;
+}
+
+nav ul li a:hover {
+  color: #ffc200;
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
 main {
   background: linear-gradient(#ffc200,#ffc200, white);
 }
