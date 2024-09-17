@@ -15,20 +15,20 @@ header > h3 {
   font-size: 2.0rem;
 }
 
-h2 {
+.section-head {
   font-family: 'Permanent Marker', cursive;
   font-size: 2.5rem;
   text-align: center;
+  letter-spacing: 0.25rem;
 }
 
 main {
   background: linear-gradient(#ffc200,#ffc200, white);
 }
 
-main > section > p{
+main > section > p {
   margin: 0;
 }
-
 
 #catalog {
   display: flex;
@@ -97,7 +97,7 @@ main > section > p{
   display: flex;
   flex: 0 1 300px;
   flex-flow: column wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
@@ -131,6 +131,13 @@ main > section > p{
   background-color: #ffc200;
   border: solid 2px #ffc200;
   border-radius: 8px;
+}
+
+#contactinfo a:hover {
+  background-color: #b38900;
+  border: solid 2px #806200;
+  border-radius: 8px;
+  transition: 0.4s;
 }
 
 #map {
