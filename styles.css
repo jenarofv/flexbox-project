@@ -111,17 +111,33 @@ main > section > p{
 
 #contact {
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 #contact p {
   text-align: center;
 }
 
+#contactinfo {
+  width: 40%;
+  max-width: 65ch;
+  min-width: 400px;
+}
+
+#contactinfo a {
+  background-color: #ffc200;
+  border: solid 2px #ffc200;
+  border-radius: 8px;
+}
+
 #map {
-  width: 80%;
+  width: 50%;
   height: 400px;
+  min-width: 400px;
+  text-align: center;
 }
 
 #map iframe {
